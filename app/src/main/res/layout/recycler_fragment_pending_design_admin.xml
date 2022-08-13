@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/cart_service_img"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/loading"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+        <TextView
+            android:id="@+id/cart_service_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Service Title"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+
+            app:layout_constraintStart_toEndOf="@id/cart_service_img"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:id="@+id/cart_by_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="By Saloon"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@id/cart_service_img"
+            app:layout_constraintTop_toBottomOf="@id/cart_service_title"
+         />
+
+        <TextView
+            android:id="@+id/cart_profile_charges"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Charges: Rs. 2500"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@id/cart_service_img"
+            app:layout_constraintTop_toBottomOf="@id/cart_by_title"
+            />
+        <TextView
+            android:id="@+id/cart_quantity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="QTY: 1"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@id/cart_service_img"
+            app:layout_constraintTop_toBottomOf="@id/cart_profile_charges"
+            />
+        <TextView
+            android:id="@+id/cart_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Date: 12-12-2022"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@id/cart_service_img"
+            app:layout_constraintTop_toBottomOf="@id/cart_quantity"
+            />
+        <TextView
+            android:id="@+id/cart_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Date: 12-12-2022"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@id/cart_service_img"
+            app:layout_constraintTop_toBottomOf="@id/cart_date"
+            />
+
+
+        <TextView
+            android:id="@+id/cart_total"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Total: 1500"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@id/cart_service_img"
+            app:layout_constraintTop_toBottomOf="@id/cart_time"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:padding="10dp"
+            app:tint="@color/red"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:src="@drawable/ic_baseline_clear_24"/>
+
+        <Button
+            android:id="@+id/completenowadmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Complete now"
+            app:layout_constraintTop_toBottomOf="@id/cart_service_img"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
