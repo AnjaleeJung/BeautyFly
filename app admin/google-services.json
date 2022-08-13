@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "661219232620",
+    "firebase_url": "https://beautyfly-c5ec8-default-rtdb.firebaseio.com",
+    "project_id": "beautyfly-c5ec8",
+    "storage_bucket": "beautyfly-c5ec8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661219232620:android:2666c12fb7f44bcf904149",
+        "android_client_info": {
+          "package_name": "com.android.beautyflyadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661219232620-ivhvi29eldj37dq54ibo6p6b314rlghf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpwt1Iq59g5h_Tl4c5Dey4BOx4SnJNTxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661219232620-ivhvi29eldj37dq54ibo6p6b314rlghf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661219232620:android:b9f82f8659475727904149",
+        "android_client_info": {
+          "package_name": "com.android.fypmid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661219232620-ivhvi29eldj37dq54ibo6p6b314rlghf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpwt1Iq59g5h_Tl4c5Dey4BOx4SnJNTxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661219232620-ivhvi29eldj37dq54ibo6p6b314rlghf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
